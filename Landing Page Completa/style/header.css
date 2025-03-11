@@ -46,3 +46,13 @@ header{
     color: rgb(20, 20, 20);
     text-decoration: none;
 }
+
+@media  (max-width: 600px) {
+    #code_github{
+        display: none;
+    }
+    .cadastro{
+        display: none;
+    }
+   
+}
