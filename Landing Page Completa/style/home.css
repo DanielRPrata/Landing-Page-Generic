@@ -1,0 +1,54 @@
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 68px);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: justify;
+    width: 70%;
+}
+aside h2{
+    font-size: 2rem;
+}
+aside span {
+    color: rgb(255, 208, 0);
+}
+article img{
+    width: 500px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+#buttons_web{
+    display: flex;
+    gap: 5px;
+}
+#buttons_web button {
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border: none;
+}
+.fa-whatsapp{
+    color: green;
+    background-color: #ffff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+.fa-facebook{
+    color: blue;
+    background-color: #ffff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100%;
+}

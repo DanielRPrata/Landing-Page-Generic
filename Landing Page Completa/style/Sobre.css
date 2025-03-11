@@ -1,0 +1,24 @@
+#Sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: rgb(20, 20, 20);
+    padding-top: 20px ;
+    height: calc(100vh - 60px);
+    
+}
+aside{
+    padding-left: 10px;
+    text-align: justify;
+    width: 70%;
+    
+}
+.sobre2{
+    text-align: center;
+}
+article img{
+    padding: 10px;
+    width: 50%;
+    width: 500px;
+}

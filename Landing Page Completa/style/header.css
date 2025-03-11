@@ -1,0 +1,48 @@
+header{
+    background-color:#ffffff; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: none;
+    color: rgb(20, 20, 20);
+}
+#title h1{
+    font-weight: 300;
+}
+#title i{
+    font-size: 1.5rem ;
+}
+#nav_web ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+#nav_web a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+#nav_web a:hover{
+    color: rgb(25, 25, 25);
+}
+#code_github > button{
+    background-color: transparent;
+    padding: 10px ;
+    font-size: 1.0009rem;
+    border: none;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    border-radius: none;
+    line-height: 10px;
+}
+#code_github a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
