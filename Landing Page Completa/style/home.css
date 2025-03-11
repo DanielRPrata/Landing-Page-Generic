@@ -10,7 +10,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
+    margin-left: 50px;
     text-align: justify;
     width: 70%;
 }
@@ -59,7 +59,7 @@ article img{
     section aside{
         width: 100%;
         text-align: center;
-        padding-right: 7.5px;
+        margin: auto;
     }
     #buttons_web{
         display: flex;
